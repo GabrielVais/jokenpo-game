@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Jokenpo game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/5e4dc12b90.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>JokenPO</h1>
+		</div>
+		<div class="content">
+			<div class="content-title">
+				<h2>Player: <strong id="scorePlayer"></strong></h2>
+				<h2>Computer: <strong id="scoreComputer"></strong></h2>
+			</div>
+			<div class="img">
+				<img src="" id="imgPlayer">
+
+				<img src="" id="imgComputer">
+			</div>
+			<div class="result">
+				<span id="result-span"></span>
+				<button id="novoJogo">Jogar Novamente</button>
+			</div>
+		</div>
+		<div class="input">
+		<button id="btnPedra"><i class="far fa-hand-rock"></i>Pedra</button>
+		<button id="btnPapel"><i class="far fa-hand-paper"></i>Papel</button>
+		<button id="btnTesoura"><i class="far fa-hand-scissors"></i>Tesoura</button>
+		</div>
+	</div>
+	<footer class="rodape" id="sticky-footer">
+        <div class="footer-title">                              
+            <p>Developed by Gabriel Campos</p>
+            <p id="ano-atual"></p>
+        </div>
+    </footer>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
